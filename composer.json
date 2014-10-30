@@ -10,9 +10,9 @@
             "email": "emailme@waltherlalk.com"
         }
     ],
-    "autoload": {
-        "classmap": [
-            "src/PDFMerger/PDFMerger.php"
-        ]
-    }
+	"autoload": {
+		"psr-4": {
+			"Dakota\\PdfMerger\\": "src"
+		}
+	}
 }

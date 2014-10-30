@@ -1,5 +1,5 @@
 <?php
-/**
+/**f
  *  PDFMerger created by Jarrod Nettles December 2009
  *  jarrod@squarecrow.com
  *
@@ -21,13 +21,13 @@
  * such as form fields, links or page annotations (anything not a part of the page content stream).
  *
  */
-namespace Clegginabox\PDFMerger;
+namespace Dakota\PdMerger;
 
 use Exception;
 use fpdi\FPDI;
 use fpdf\FPDF;
 
-class PDFMerger
+class PdfMerger
 {
     private $_files;    //['form.pdf']  ["1,2,4, 5-19"]
     private $_fpdi;

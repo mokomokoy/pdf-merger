@@ -10,14 +10,14 @@ I've just forked this package to make it compatible with composer
 ### Example Usage
 ```php
 
-$pdf = new \Clegginabox\PDFMerger\PDFMerger;
+$pdf = new \Dakota\PdfMerger\PdfMerger;
 
 $pdf->addPDF('samplepdfs/one.pdf', '1, 3, 4');
 $pdf->addPDF('samplepdfs/two.pdf', '1-2');
 $pdf->addPDF('samplepdfs/three.pdf', 'all');
 
 
-$pdf->merge('file', 'samplepdfs/TEST2.pdf'); 
-    
+$pdf->merge('file', 'samplepdfs/TEST2.pdf');
+
 // REPLACE 'file' WITH 'browser', 'download', 'string', or 'file' for output options
 ```
