@@ -2,7 +2,7 @@
     "name": "dakota/pdf-merger",
     "description": "PDF File Merger for PHP5",
     "require": {
-        "itbz/fpdi": "dev-master"
+        "itbz/fpdi": "1.7.*"
     },
     "authors": [
         {
